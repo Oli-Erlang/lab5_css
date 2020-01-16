@@ -25,53 +25,55 @@
 			}
 			
 			#content{
-				width: 557px;
-				height: 300px;
+				width: 704px;
+				height: 600px;
 				float: left;
 				background-color:#fff;
-				padding-left: 9px;
-				padding-right: 9px;
+				padding-left: 8px;
+				padding-right: 8px;
 			}
 			
-			#nav{ 
-				width: 145px;
-				height: 300px;
-				float: left;
-				background-color:#e7e7e7;
-				
-			}
 			
 			#header{
 				height: 50px;
 				background-color:#b0b0b0;
 			}
 			
-			ul li{
-				padding-top:10px;
-				padding-bottom:10px;
-				list-style: none;
-				font-size:12px;
+			ul{
+				margin:0;
+				padding:0;
+				width:720px;
+				list-style:none;
+				text-transform:uppercase;
+				overflow:hidden;
+				height:25px;
+				background-image:url(images/nb.gif);
+				background-repeat:repeat-x;
+				
 			}
 			
-			a:link{
-				text-decoration:none;
+			li{
+				display:inline;
+				float:left;
 			}
 			
-			a:visited{
-				color:black;
+			a{
+				padding:0 11px 0 11px;
+				line-height: 25px;
 				text-decoration:none;
+				color:#fff;
+				float:left;
+				display:inline-block;
+				background-image:url(images/nb.gif);
+				background-repeat:repeat-x;
 			}
 			
 			a:hover{
-				color:black;
-				font-weight: bold;
-				text-decoration: underline;
+				color:#333;
 			}
 			
-			a:aktive{
-				color:black;
-				font-weight: bold;
-			    text-decoration: underline;
+			a:visited{
+				color:#333;
 			}
 			
 			h1{
@@ -85,7 +87,7 @@
 			<div id="header">
 				<h1>Все о Минске</h1>
 			</div>
-			<div id="nav">
+			
 				<ul>
 					<li><a href="#">Площади</a></li>
 					<li><a href="#">Парки</a></li>
@@ -93,11 +95,19 @@
 					<li><a href="#">Памятники</a></li>
 					<li><a href="#">Скверы</a></li>
 					<li><a href="#">Водоемы</a></li>
+					<li> <a href="#">Проспекты </a></li>
+                	<li> <a href="#">Бульвары </a></li>
+                	<li> <a href="#">Церкви </a></li>
 				</ul>
-			</div>
+
 			<div id="content">
-				<h3>История Минска</h3>
-				<p>Минск. Первое упоминание о городе относится к 1067 г. В этом году на реке Немиге произошла кровопролитная битва между киевскими князьями Ярославичами и полоцким князем Всеславом. Эта битва описана в древнерусском эпосе "Слово о полку Игореве". Замчище - детинец раннефеодального Минска - располагалось недалеко от слияния рек Свислочи и Немиги.</p>
+				<h3>Фонтаны Минска</h3>
+				<div style="position: relative; top: 10px; left: 0px;">
+               		 <img src="images/font1.jpg">
+            	</div>
+            	<div style="position: relative; top:-90px; left: 290px;">
+               	 	<img src="images/font2.jpg">
+				</div>
 			</div>
 		</div>
 	</body>
